@@ -1,0 +1,15 @@
+{
+  "name": "sir-trevor-columns-block",
+  "homepage": "https://github.com/e1himself/sir-trevor-columns-block",
+  "version": "0.1.1",
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "63676fd20b338d24c6759d3c0f00e3b46169d84d"
+  },
+  "_source": "git://github.com/e1himself/sir-trevor-columns-block.git",
+  "_target": "~0.1.1",
+  "_originalSource": "e1himself/sir-trevor-columns-block",
+  "_direct": true
+}

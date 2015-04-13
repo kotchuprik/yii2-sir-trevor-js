@@ -12,7 +12,7 @@ class SirTrevorAsset extends AssetBundle {
     public $sourcePath = '@sirtrevorjs/bower_components';
 
     public $publishOptions = [
-        'forceCopy' => true
+        'forceCopy' => false
     ];
 
     public function registerAssetFiles($view)
@@ -28,13 +28,15 @@ class SirTrevorAsset extends AssetBundle {
         } else {
             $this->js[] = 'sir-trevor-js/build/sir-trevor.debug.js';
         }
-
+        $this->js[] = "sir-trevor-columns-block/build/sir-trevor-columns-block.js";
         parent::registerAssetFiles($view);
     }
 
     public $css = [
         'sir-trevor-js/sir-trevor-icons.css',
         'sir-trevor-js/build/sir-trevor.css',
+        "sir-trevor-columns-block/build/sir-trevor-columns-block.css",
+        "sir-trevor-columns-block/build/sir-trevor-columns-block-icons.css",
     ];
 
     public $js = [

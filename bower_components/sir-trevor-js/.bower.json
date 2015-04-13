@@ -1,28 +1,30 @@
 {
-  "name": "sir-trevor-js",
+  "name": "mr-trevor-js",
+  "version": "0.5.2",
   "ignore": [
     "**/.*",
     "node_modules",
-    "components",
-    "src/!(blocks)",
-    "spec",
-    "examples",
-    "website",
-    "BrowserRunner.html"
+    "bower_components"
   ],
   "dependencies": {
     "es5-shim": "~v4.0.3",
     "es6-shim": "~0.21.0",
     "Eventable": "~1.0.1",
-    "jquery": "~1.9.1"
+    "jquery": ">=1.9.1"
   },
-  "homepage": "https://github.com/perminder-klair/sir-trevor-js",
-  "_release": "0203af4300",
+  "main": [
+    "sir-trevor.js",
+    "sir-trevor.css",
+    "sir-trevor-icons.css"
+  ],
+  "homepage": "https://github.com/e1himself/mr-trevor-js-bower",
+  "_release": "0.5.2",
   "_resolution": {
-    "type": "commit",
-    "commit": "0203af430077daa28ce3383a6e7fb1936f3d29ef"
+    "type": "version",
+    "tag": "0.5.2",
+    "commit": "ba67333951671a571700443d65c5d1d38df920dc"
   },
-  "_source": "https://github.com/perminder-klair/sir-trevor-js.git",
-  "_target": "0203af430077daa28ce3383a6e7fb1936f3d29ef",
-  "_originalSource": "https://github.com/perminder-klair/sir-trevor-js.git"
+  "_source": "git://github.com/e1himself/mr-trevor-js-bower.git",
+  "_target": "*",
+  "_originalSource": "mr-trevor-js"
 }
